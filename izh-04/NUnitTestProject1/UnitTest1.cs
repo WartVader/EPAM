@@ -54,9 +54,9 @@ namespace Test
         [Test]
         public void Test1_EqualSum()
         {
-            double[] array = { 10.451, 103.1111, 42.231 };
+            double[] array = { 0, 1, 2, 3 };
             int answer = Program.EqualSum(array);
-            int realAnswer = 1;
+            int realAnswer = -1;
             if (answer == realAnswer)
                 Assert.Pass();
             else

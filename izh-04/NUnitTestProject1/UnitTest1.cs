@@ -54,7 +54,7 @@ namespace Test
         [Test]
         public void Test1_EqualSum()
         {
-            float[] array = { 10.451f, 103.1111f, 42.231f };
+            double[] array = { 10.451, 103.1111, 42.231 };
             int answer = Program.EqualSum(array);
             int realAnswer = 1;
             if (answer == realAnswer)
@@ -66,7 +66,7 @@ namespace Test
         [Test]
         public void Test2_EqualSum()
         {
-            float[] array = { 11.902f, 10.312f, 420.120f };
+            double[] array = { 11.902, 10.312, 420.120 };
             int answer = Program.EqualSum(array);
             int realAnswer = -1;
             if (answer == realAnswer)

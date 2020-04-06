@@ -13,7 +13,7 @@ namespace Test
         }
 
 
-        //1
+        //2
         [Test]
         public void Test_RecurMaxFinder_aboveZero()
         {
@@ -50,7 +50,7 @@ namespace Test
                 Assert.Fail();
         }
 
-        //2
+        //3
         [Test]
         public void Test1_EqualSum()
         {
@@ -75,7 +75,7 @@ namespace Test
                 Assert.Fail();
         }
 
-        //3
+        //4
         [Test]
         public void Test1_Concat()
         {
@@ -94,7 +94,7 @@ namespace Test
                 Assert.Fail();
         }
 
-        //4
+        //5
         public bool TestCase(int num, int expected)
         {
             int answer = Program.FindNextBiggerNumber(num);
